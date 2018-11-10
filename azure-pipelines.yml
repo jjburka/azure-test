@@ -20,5 +20,5 @@ steps:
     scheme: ''
     sdk: 'iphonesimulator'
     configuration: 'Release'
-    xcWorkspacePath: '**/BullsEye.xcodeproj'
+    xcWorkspacePath: '**/BullsEye.xcworkspace'
     xcodeVersion: 'default' # Options: 8, 9, default, specifyPath
