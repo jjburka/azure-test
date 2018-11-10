@@ -16,6 +16,7 @@ steps:
     #projectDirectory: # Optional
 - task: Xcode@5
   inputs:
+    scheme: "BullsEye"
     actions: 'build'
     scheme: ''
     sdk: 'iphonesimulator'
