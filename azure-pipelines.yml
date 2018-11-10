@@ -18,7 +18,8 @@ steps:
   inputs:
     scheme: "BullsEye"
     actions: 'clean build test'
-    sdk: 'iphonesimulator'
+    sdk: 'iphonesimulator12.0'
     configuration: 'Debug'
     xcWorkspacePath: '**/BullsEye.xcworkspace'
     xcodeVersion: 'default' # Options: 8, 9, default, specifyPath
+    destinationSimulators: 'iPhone 7'
