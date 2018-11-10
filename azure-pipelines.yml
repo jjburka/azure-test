@@ -18,7 +18,6 @@ steps:
   inputs:
     scheme: "BullsEye"
     actions: 'build'
-    scheme: ''
     sdk: 'iphonesimulator'
     configuration: 'Release'
     xcWorkspacePath: '**/BullsEye.xcworkspace'
